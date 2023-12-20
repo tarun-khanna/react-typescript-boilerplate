@@ -1,13 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
+// import { I18nProvider } from "@razorpay/i18nify-react";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
+// import AmountWrapper from "./components/Amount";
+// App entry point
 
 ReactDOM.render(
+  // <I18nProvider>
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+  // </I18nProvider>,
+
   document.getElementById("root")
 );
 
